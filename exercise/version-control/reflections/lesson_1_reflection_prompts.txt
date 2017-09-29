@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Diff use minus symbol and plus symbol to help me see the differences between the two version. minus means "this line is changed or removed" and plus means "this line is the changed result".
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    "git log" is a useful command to view full history.  
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    To create git commit is for understanding changes in future, so every commit is important.
+    In google docs, maybe you can't compare the differences of two versions, and know where it is modified clearly. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    I think each fix is not just modify single file. maybe it's reason that git allow saving multiple files is necessary. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    If I wnat to know changelog, I will use git log to view commits, and
+    know where is modified, I will use git diff.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    It make a flow smooth to help me finish something easily.   
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    git init && git push -u origin master
